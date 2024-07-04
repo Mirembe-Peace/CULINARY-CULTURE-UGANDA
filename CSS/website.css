@@ -328,6 +328,13 @@ nav{
     text-align: center;
     color:orangered;
     background-color: gainsboro;
+    font-weight: bolder;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(46, 34, 3);
   }
   
   p{
