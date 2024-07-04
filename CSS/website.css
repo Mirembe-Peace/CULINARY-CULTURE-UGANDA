@@ -1,4 +1,4 @@
-head{  font-size: 30px;
+/* /* title{  font-size: 30px;
   font-style: italic;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:orangered;
@@ -100,4 +100,239 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-palette: black;
-  } 
+  }  */
+
+
+
+  title{  
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    background-color: darksalmon;
+  }
+  
+  nav{
+    margin: 27px auto 0;
+    position: relative;
+    width: 580px;
+    height: 50px;
+    background-color: #034d04;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  
+  nav a{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(236, 187, 9);
+    cursor: pointer;
+  }
+  
+  nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  
+  a:nth-child(1){
+    width: 100px;
+  }
+  
+  a:nth-child(2){
+    width: 110px;
+  }
+  
+  a:nth-child(3){
+    width: 100px;
+  }
+  
+  a:nth-child(4){
+    width: 160px;
+  }
+  
+  a:nth-child(5){
+    width: 100px;
+  }
+  
+  nav.start-home, a:nth-child(1):hover ~ .animation{
+    width: 100px;
+    left: 0;
+    background-color: #68800f;
+  }
+  
+  nav.start-History, a:nth-child(2):hover ~ .animation{
+    width: 110px;
+    left: 100px;
+    background-color: #68800f;
+  }
+  
+  nav.start-Challenges, a:nth-child(3):hover ~ .animation{
+    width: 100px;
+    left: 210px;
+    background-color: #68800f;
+  }
+  
+  nav.start-Statistics, a:nth-child(4):hover ~ .animation{
+    width: 160px;
+    left: 310px;
+    background-color: #68800f;
+  }
+  
+  nav.start-Gallery, a:nth-child(5):hover ~ .animation{
+    width: 100px;
+    left: 480px;
+    background-color: #68800f;
+  }
+  
+  body{
+    font-size: 12px;
+    font-family: sans-serif;
+    background: none;
+  }
+  
+  span{
+    color: #034d04;
+  }
+  
+  h1{
+    font-family: 'Lucida Handwriting', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-palette: orange;
+    text-align: center;
+  }
+  
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-palette: black;
+  }
+   */
+
+
+   title{  
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    background-color: darksalmon;
+  }
+  
+  nav{
+    margin: 27px auto 0;
+    position: relative;
+    width: 580px;
+    height: 50px;
+    background-color: #034d04;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  
+  nav a{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(236, 187, 9);
+    cursor: pointer;
+  }
+  
+  nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  
+  a:nth-child(1){
+    width: 100px;
+  }
+  
+  a:nth-child(2){
+    width: 110px;
+  }
+  
+  a:nth-child(3){
+    width: 100px;
+  }
+  
+  a:nth-child(4){
+    width: 160px;
+  }
+  
+  a:nth-child(5){
+    width: 100px;
+  }
+  
+  nav.start-home, a:nth-child(1):hover ~ .animation{
+    width: 100px;
+    left: 0;
+    background-color: #68800f;
+  }
+  
+  nav.start-History, a:nth-child(2):hover ~ .animation{
+    width: 110px;
+    left: 100px;
+    background-color: #68800f;
+  }
+  
+  nav.start-Challenges, a:nth-child(3):hover ~ .animation{
+    width: 100px;
+    left: 210px;
+    background-color: #68800f;
+  }
+  
+  nav.start-Statistics, a:nth-child(4):hover ~ .animation{
+    width: 160px;
+    left: 310px;
+    background-color: #68800f;
+  }
+  
+  nav.start-Gallery, a:nth-child(5):hover ~ .animation{
+    width: 100px;
+    left: 480px;
+    background-color: #68800f;
+  }
+  
+  body{
+    font-size: 12px;
+    font-family: sans-serif;
+    background: none;
+  }
+  
+  span{
+    color: #034d04;
+  }
+  
+  h1{
+    font-family: 'Papyrus', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30;
+    font-palette: orange;
+    text-align: center;
+    color:orangered;
+    background-color: gainsboro;
+  }
+  
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-palette: black;
+  }
+  
