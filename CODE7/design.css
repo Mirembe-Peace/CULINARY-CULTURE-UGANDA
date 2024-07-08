@@ -1,0 +1,332 @@
+/* Navbar container */
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    /*border: solid;*/
+    /*font-weight: <weight>;*/
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+.Section {
+
+    width:100%;
+    height:100vh;
+}
+
+/*Hero*/
+
+#Hero-section{
+    background-color:#F8DC4F;
+
+}
+
+.h-img{
+    position: relative;
+
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+#hero-txt {
+
+    position: relative;
+    top: -23vh;
+    left: 20%;
+   
+
+    z-index: 1;
+    
+
+
+}
+
+#hero-img-splash {
+    z-index: 2;
+
+    top: 10vh;
+    left: 14%;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#hero-img-sumz {
+    z-index: 2;
+
+    top: 5vh;
+    left: 40%;
+
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#hero-img-coke {
+    z-index: 3;
+
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#hero-img-cjs {
+    z-index: 4;
+
+    top: -40vh;
+    left: 13%;
+
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+#hero-img-arrow {
+
+    z-index: 4;
+
+    top: -45vh;
+    left: 20%;
+
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+/*Logo*/
+
+#logo {
+
+    position: relative;
+    top: 50px ;
+    left: 20em; 
+
+}
+
+/*Navbar*/
+
+.navbar{
+    display:inline-block;
+    padding: 20px;
+
+    font-weight: 550;
+    z-index: 6;
+
+    /*margin-left: 2em;*/
+    
+
+
+}
+
+.navbar{
+    background-color: rgba(242,242,242,43%);
+    border-radius: 12px;
+    transition: 1ms;
+}
+
+
+.navbar{
+    background-color: rgba(217,217,217,30%);
+    border-radius: 12px;
+    margin: 0px 37%;
+    text-align: center;
+    width: max-content;
+    position: fixed;
+}
+
+/*hover over links*/
+.dropdown-content a:hover{
+    background-color:#FFF0D3;}
+/* showing menu on hover*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+/*Card*/
+
+#Card-section{
+    background-color:#FFF0D3;
+}
+
+#Card-section h1 {
+    padding-top: 80px;
+    padding-left: 70px;
+
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.cards-section {
+    position: relative;
+    top: 10vh;
+    left: 4%;
+
+
+    display:flexbox;
+    width: fit-content;
+    
+
+   
+}
+
+.cards:hover{
+
+    transform: skew(2deg, 2deg);
+    transition: 100ms;
+
+}
+
+.cards:nth-child(2) {
+    position: relative;
+    left:20%;
+
+    
+}
+
+.cards:nth-child(3) {
+    position: relative;
+    left:35%;
+
+    
+}
+
+
+
+/*Gallery*/
+
+#Gallery-section{
+    background-color:#F8DC4F;
+}
+
+#g-preview{
+    position: relative;
+    top: 5vh;
+    left: 10%;
+}
+
+
+/*Footer*/
+
+#Footer-section{
+    background-color:#642DD8;
+    height: 40vh;
+}
+
+.footer {
+    color: white;
+    position: relative;
+}
+
+#site-map {
+
+    list-style-type: circle;
+    color: #FFF;
+}
+
+#Footer-section h2{
+
+    font-size: 30px;
+    font-weight: 300;
+    top: 8vh;
+    left:10.5em;
+
+
+}
+#logo-w{
+
+    
+    top: 50px ;
+    left: 20em; 
+}
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(208, 199, 164);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(244, 239, 176);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
